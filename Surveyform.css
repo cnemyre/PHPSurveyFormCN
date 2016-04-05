@@ -1,0 +1,33 @@
+#mainform{
+  border: 2px solid lightgray;
+  width: 500px;
+  height: 300px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 10px;
+
+}
+form{
+display: inline-block;
+vertical-align: top;
+width: 500px;
+
+
+}
+#maincontent{
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 600px;
+}
+h1{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+}
+span{
+  font-weight: bold;
+
+}
