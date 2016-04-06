@@ -1,33 +1,77 @@
-#mainform{
-  border: 2px solid lightgray;
-  width: 500px;
-  height: 300px;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 10px;
-
+* {
+  padding: 0px;
+  margin: 0%;
+}
+#container {
+  width: 90%;
+  margin: 0px auto;
 }
 form{
 display: inline-block;
 vertical-align: top;
-width: 500px;
-
-
+width: 100%;
 }
-#maincontent{
+input, select {
+  width: 40%;
+  margin-left: 10%;
+}
+textarea {
+  margin: 2% 0%;
+  width: 95%;
+  padding: 10px;
+}
+label {
+  display: inline-block;
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size: 1.1rem;
+  width: 30%
+  margin-left: 5%;
+}
+#top {
+  margin: 5% auto;
+  width: 600px;
+  text-shadow: 2px 2px 5px #888888;
+  text-align: center;
+}
+#maincontent, #mainform{
   border: 1px solid lightgray;
-  margin-left: 10px;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  margin: 5% auto;
+  padding: 20px;
   width: 600px;
 }
-h1{
+h1, h2{
   display: inline-block;
   vertical-align: top;
-  padding-left: 15px;
+  width: 100%;
 }
 span{
   font-weight: bold;
-
+}
+p {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 50%;
+}
+.labels {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 30%;
+}
+a {
+  display: inline-block;
+  width: 20%;
+  margin-left: 70%;
+  background: blue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.button {
+  width: 20%;
+  margin-left: 40%;
+  background: blue;
+  color: white;
+  border: 1px solid black;
 }
