@@ -11,20 +11,20 @@ session_start();
 <body>
   <div id="container">
     <div id="top">
-      <h1>Thank you! Your form has been submitted! <?$_SESSION['counter']?></h1>
+      <h1>Thank you <?= $_SESSION['fields']['Full_Name']; ?> !</h1>
+      <h2>Your form has been submitted <?= $_SESSION['counter']?> times this session!</h2>
     </div>
 
     <div id="maincontent">
-       <h2>Information that has been submitted:</h2>
+       <h3>Information that has been submitted:</h3>
        <?php      foreach($_SESSION['fields'] as $name => $value)
        {
-         echo "<p>" . $name . " : " . $value . "</p>";
-
+         echo "<p class='labels'>" . $name . ": </p><p>" . $value . "</p>";
        }
        ?>
-       <a href="Surveyform.php"> Go Back</a>
-     </div>
-
+       <a href="Surveyform.php">Go Back</a>
+    </div>
+  </div>
 
 </body>
 </html>
